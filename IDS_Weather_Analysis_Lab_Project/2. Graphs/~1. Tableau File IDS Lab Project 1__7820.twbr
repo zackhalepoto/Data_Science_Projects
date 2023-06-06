@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20224.22.1117.1841                               -->
+<workbook original-version='18.1' source-build='2022.4.0 (20224.22.1117.1841)' source-platform='win' version='18.1' xml:base='http://localhost:9100' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <Heatmap />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT?rev=1.0' id='IDSLabProject1' path='/t/halepotoandsons/workbooks' revision='1.0' site='halepotoandsons' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (Karachi_Cleaned_2022)' inline='true' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Karachi_Cleaned_2022' name='excel-direct.0obsa5d1istle510y2xzn17ry701'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='Data/199exg0146b3bg15ytokm0b51u2r/Karachi_Cleaned_2022.xlsx' interpretationMode='0' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0obsa5d1istle510y2xzn17ry701' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M366:no:A1:M366:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='real' name='Min_temp' ordinal='2' />
+            <column datatype='real' name='Max_temp' ordinal='3' />
+            <column datatype='integer' name='Wind_speed' ordinal='4' />
+            <column datatype='integer' name='Wind_direction' ordinal='5' />
+            <column datatype='real' name='Rainfall' ordinal='6' />
+            <column datatype='real' name='Air Pressure' ordinal='7' />
+            <column datatype='integer' name='Humidity' ordinal='8' />
+            <column datatype='integer' name='Clouds' ordinal='9' />
+            <column datatype='real' name='Temperature' ordinal='10' />
+            <column datatype='real' name='Dew_point' ordinal='11' />
+            <column datatype='string' name='Conditions' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0obsa5d1istle510y2xzn17ry701' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:M366:no:A1:M366:0' header='yes' outcome='6'>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='date' name='Date' ordinal='1' />
+            <column datatype='real' name='Min_temp' ordinal='2' />
+            <column datatype='real' name='Max_temp' ordinal='3' />
+            <column datatype='integer' name='Wind_speed' ordinal='4' />
+            <column datatype='integer' name='Wind_direction' ordinal='5' />
+            <column datatype='real' name='Rainfall' ordinal='6' />
+            <column datatype='real' name='Air Pressure' ordinal='7' />
+            <column datatype='integer' name='Humidity' ordinal='8' />
+            <column datatype='integer' name='Clouds' ordinal='9' />
+            <column datatype='real' name='Temperature' ordinal='10' />
+            <column datatype='real' name='Dew_point' ordinal='11' />
+            <column datatype='string' name='Conditions' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M366:no:A1:M366:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Min_temp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Min_temp]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Min_temp</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Max_temp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Max_temp]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Max_temp</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind_speed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wind_speed]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Wind_speed</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Wind_direction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Wind_direction]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Wind_direction</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rainfall</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rainfall]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Rainfall</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Air Pressure</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Air Pressure]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Air Pressure</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Humidity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Humidity]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Humidity</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clouds</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clouds]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Clouds</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Temperature</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Temperature]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Temperature</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dew_point</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dew_point]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Dew_point</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Dew point' datatype='real' name='[Dew_point]' role='measure' type='quantitative' />
+      <column caption='Max temp' datatype='real' name='[Max_temp]' role='measure' type='quantitative' />
+      <column caption='Min temp' datatype='real' name='[Min_temp]' role='measure' type='quantitative' />
+      <column caption='Wind direction' datatype='integer' name='[Wind_direction]' role='measure' type='quantitative' />
+      <column caption='Wind speed' datatype='integer' name='[Wind_speed]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_60A40BF073CF4FFF95CE661B13C8935C]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_60A40BF073CF4FFF95CE661B13C8935C'>
+            <properties context=''>
+              <relation connection='excel-direct.0obsa5d1istle510y2xzn17ry701' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:M366:no:A1:M366:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='date' name='Date' ordinal='1' />
+                  <column datatype='real' name='Min_temp' ordinal='2' />
+                  <column datatype='real' name='Max_temp' ordinal='3' />
+                  <column datatype='integer' name='Wind_speed' ordinal='4' />
+                  <column datatype='integer' name='Wind_direction' ordinal='5' />
+                  <column datatype='real' name='Rainfall' ordinal='6' />
+                  <column datatype='real' name='Air Pressure' ordinal='7' />
+                  <column datatype='integer' name='Humidity' ordinal='8' />
+                  <column datatype='integer' name='Clouds' ordinal='9' />
+                  <column datatype='real' name='Temperature' ordinal='10' />
+                  <column datatype='real' name='Dew_point' ordinal='11' />
+                  <column datatype='string' name='Conditions' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Airpressure_Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Airpressure throughout the year>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet6?rev=' id='Sheet6' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='real' name='[Air Pressure]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Air Pressure]' derivation='Sum' name='[sum:Air Pressure:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[sum:Air Pressure:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{D1D34EEF-DAB1-4D94-8FA8-0B71FA334AE8}' />
+    </worksheet>
+    <worksheet name='Avg_Humidity_Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Average Humidity over time&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location id='Sheet8' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Humidity]' role='measure' type='quantitative' />
+            <column-instance column='[Humidity]' derivation='Avg' name='[avg:Humidity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[avg:Humidity:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{39E15321-CFB8-4C91-A1D8-8C0644FE8E6F}' />
+    </worksheet>
+    <worksheet name='Avg_Rainfall_Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Avg rainfall by month in 2022&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet4?rev=' id='Sheet4' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Rainfall]' role='measure' type='quantitative' />
+            <column-instance column='[Rainfall]' derivation='Avg' name='[avg:Rainfall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing custom-mark-size-in-axis-units='1.0' mark-alignment='mark-alignment-left' mark-sizing-setting='marks-scaling-on' use-custom-mark-size='false' />
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[avg:Rainfall:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{FC0CA40F-C66F-43DE-8775-6C936C5E9DA6}' />
+    </worksheet>
+    <worksheet name='Days_Condition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Number of days with weather conditions>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet1?rev=' id='Sheet1' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='string' name='[Conditions]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column-instance column='[Date]' derivation='Count' name='[cnt:Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Conditions]' derivation='None' name='[none:Conditions:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[cnt:Date:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[none:Conditions:nk]</cols>
+      </table>
+      <simple-id uuid='{585B3E89-16C2-45FC-A6C3-0F5A32E981C0}' />
+    </worksheet>
+    <worksheet name='Dewpoint_Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Dewpoint over time&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet2?rev=' id='Sheet2' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Dew point' datatype='real' name='[Dew_point]' role='measure' type='quantitative' />
+            <column-instance column='[Dew_point]' derivation='Sum' name='[sum:Dew_point:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[sum:Dew_point:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[tdy:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{A0DD3773-F2ED-4F1C-8084-B035923B12C2}' />
+    </worksheet>
+    <worksheet name='Min_Max_Time'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Min and Max temp over time&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet3?rev=' id='Sheet3' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column caption='Max temp' datatype='real' name='[Max_temp]' role='measure' type='quantitative' />
+            <column caption='Min temp' datatype='real' name='[Min_temp]' role='measure' type='quantitative' />
+            <column-instance column='[Max_temp]' derivation='Sum' name='[sum:Max_temp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Min_temp]' derivation='Sum' name='[sum:Min_temp:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Day-Trunc' name='[tdy:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[sum:Max_temp:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[sum:Min_temp:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[:Measure Names]' />
+              <lod column='[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#b6992d' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[Multiple Values]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[tdy:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{42787E03-DD3B-4878-A590-66B6E86F0AAC}' />
+    </worksheet>
+    <worksheet name='Rainfall_WindDirection'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Rainfall vs Wind Direction&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location id='Sheet7' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='real' name='[Rainfall]' role='measure' type='quantitative' />
+            <column caption='Wind direction' datatype='integer' name='[Wind_direction]' role='measure' type='quantitative' />
+            <column-instance column='[Rainfall]' derivation='None' name='[none:Rainfall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wind_direction]' derivation='None' name='[none:Wind_direction:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[none:Wind_direction:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[none:Rainfall:qk]</cols>
+      </table>
+      <simple-id uuid='{2EE3D2AD-CE51-4DFA-9053-6F281C6941A4}' />
+    </worksheet>
+    <worksheet name='Rainfall_Windspeed'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>&lt;Rainfall vs Windspeed&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <repository-location derived-from='http://localhost:9100/t/halepotoandsons/workbooks/IDSPROJECT/Sheet5?rev=' id='Sheet5' path='/t/halepotoandsons/workbooks/IDSLabProject1' revision='' site='halepotoandsons' />
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Karachi_Cleaned_2022)' name='federated.1p65uxa1pquq6o1gvbpej0tm16mn' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1p65uxa1pquq6o1gvbpej0tm16mn'>
+            <column datatype='real' name='[Rainfall]' role='measure' type='quantitative' />
+            <column caption='Wind speed' datatype='integer' name='[Wind_speed]' role='measure' type='quantitative' />
+            <column-instance column='[Rainfall]' derivation='None' name='[none:Rainfall:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Wind_speed]' derivation='None' name='[none:Wind_speed:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='density-kernel-size' value='0.56720000505447388' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='density-intensity' value='0.64374065399169922' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[none:Wind_speed:qk]</rows>
+        <cols>[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[none:Rainfall:qk]</cols>
+      </table>
+      <simple-id uuid='{87894877-3F83-49EF-981B-E52147867345}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='37'>
+    <window class='worksheet' maximized='true' name='Days_Condition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5FCBA1F2-ADA2-4427-860F-7028137238EF}' />
+    </window>
+    <window class='worksheet' name='Dewpoint_Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{3C6CBAC4-A62E-41D6-8A8A-A6897752EB48}' />
+    </window>
+    <window class='worksheet' name='Min_Max_Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1p65uxa1pquq6o1gvbpej0tm16mn].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6B571974-EDC4-42C7-AE95-EE7F3CB6B144}' />
+    </window>
+    <window class='worksheet' name='Avg_Rainfall_Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{78B06B17-DB9F-491D-87AD-8726D9B1D3A6}' />
+    </window>
+    <window class='worksheet' name='Rainfall_Windspeed'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{0CB691B3-0C76-4A9C-B026-D3D85CF070A9}' />
+    </window>
+    <window class='worksheet' name='Airpressure_Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{98EEDAA3-A4CA-4636-81F8-31C493F89A6C}' />
+    </window>
+    <window class='worksheet' name='Rainfall_WindDirection'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{89A22935-0057-46A5-9C64-B8274D25476C}' />
+    </window>
+    <window class='worksheet' name='Avg_Humidity_Time'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FAA47D48-F7D1-4DD1-90DB-6C81F2F9243B}' />
+    </window>
+  </windows>
+</workbook>
